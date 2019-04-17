@@ -1,0 +1,11 @@
+/home/amcowden97/test_OVD_clientless/obj/Debug/netcoreapp2.2/test_OVD_clientless.csproj.CoreCompileInputs.cache
+/home/amcowden97/test_OVD_clientless/obj/Debug/netcoreapp2.2/test_OVD_clientless.AssemblyInfoInputs.cache
+/home/amcowden97/test_OVD_clientless/obj/Debug/netcoreapp2.2/test_OVD_clientless.AssemblyInfo.cs
+/home/amcowden97/test_OVD_clientless/bin/Debug/netcoreapp2.2/test_OVD_clientless.deps.json
+/home/amcowden97/test_OVD_clientless/bin/Debug/netcoreapp2.2/test_OVD_clientless.runtimeconfig.json
+/home/amcowden97/test_OVD_clientless/bin/Debug/netcoreapp2.2/test_OVD_clientless.runtimeconfig.dev.json
+/home/amcowden97/test_OVD_clientless/bin/Debug/netcoreapp2.2/test_OVD_clientless.dll
+/home/amcowden97/test_OVD_clientless/bin/Debug/netcoreapp2.2/test_OVD_clientless.pdb
+/home/amcowden97/test_OVD_clientless/obj/Debug/netcoreapp2.2/test_OVD_clientless.dll
+/home/amcowden97/test_OVD_clientless/obj/Debug/netcoreapp2.2/test_OVD_clientless.pdb
+/home/amcowden97/test_OVD_clientless/obj/Debug/netcoreapp2.2/test_OVD_clientless.csprojAssemblyReference.cache

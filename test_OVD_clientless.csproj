@@ -1,0 +1,58 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp2.2</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Program.cs~" />
+    <None Remove="Program.cs~" />
+    <None Remove="Boxes\ubuntu_18.04.1_desktop_amd64.iso" />
+    <None Remove="ConfigurationFiles\ConnectionTypes.json" />
+    <None Remove="bash_layer_scripts\get_vm_info.sh" />
+    <None Remove="bash_layer_scripts\get_service_offering_info.sh" />
+    <None Remove="bash_layer_scripts\get_template_info.sh" />
+    <None Remove="bash_layer_scripts\get_zone_info.sh" />
+    <None Remove="ansible_layer_scripts\ansible_deploy_vm\playbook.retry" />
+    <None Remove="ansible_layer_scripts\ansible_deploy_vm\playbook.yml" />
+    <None Remove="ansible_layer_scripts\ansible_deploy_vm\site.yml" />
+    <None Remove="ansible_layer_scripts\ansible_deploy_vm\staging" />
+    <None Remove="ansible_layer_scripts\ansible_deploy_vm\roles\common\files\main.yml" />
+    <None Remove="ansible_layer_scripts\ansible_deploy_vm\roles\common\handlers\main.yml" />
+    <None Remove="ansible_layer_scripts\ansible_deploy_vm\roles\common\meta\main.yml" />
+    <None Remove="ansible_layer_scripts\ansible_deploy_vm\roles\common\tasks\main.yml" />
+    <None Remove="ansible_layer_scripts\ansible_deploy_vm\roles\common\templates\main.yml" />
+    <None Remove="ansible_layer_scripts\ansible_deploy_vm\roles\common\vars\main.yml" />
+    <None Remove="ansible_layer_scripts\ansible_deploy_vm\roles\ubuntu_vm\defaults\main.yml" />
+    <None Remove="ansible_layer_scripts\ansible_deploy_vm\roles\ubuntu_vm\files\main.yml" />
+    <None Remove="ansible_layer_scripts\ansible_deploy_vm\roles\ubuntu_vm\handlers\main.yml" />
+    <None Remove="ansible_layer_scripts\ansible_deploy_vm\roles\ubuntu_vm\meta\main.yml" />
+    <None Remove="ansible_layer_scripts\ansible_deploy_vm\roles\ubuntu_vm\tasks\deploy_vm.yml" />
+    <None Remove="ansible_layer_scripts\ansible_deploy_vm\roles\ubuntu_vm\tasks\main.yml" />
+    <None Remove="ansible_layer_scripts\ansible_deploy_vm\roles\ubuntu_vm\templates\main.yml" />
+    <None Remove="ansible_layer_scripts\ansible_deploy_vm\roles\ubuntu_vm\vars\main.yml" />
+    <None Remove="bash_layer_scripts\accquire_ip_address.sh" />
+    <None Remove="ConfigurationFiles\ConnectionConfiguration.xml" />
+    <None Remove="ConfigurationFiles\ConnectionTypes.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Models\" />
+    <Folder Include="Exceptions\" />
+    <Folder Include="Dtos\" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="MySql.Data" Version="8.0.15" />
+    <PackageReference Include="EntityFramework" Version="6.2.0" />
+    <PackageReference Include="Newtonsoft.Json" Version="12.0.1" />
+    <PackageReference Include="SSH.NET" Version="2016.1.0" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Remove="Models\Teacher.cs" />
+    <Compile Remove="Exceptions\InvalidGroupNameException.cs" />
+    <Compile Remove="ScriptConnectors\ScriptVmStopper.cs" />
+    <Compile Remove="Exceptions\GroupDeletionException.cs" />
+    <Compile Remove="Exceptions\UserInitializationException.cs" />
+    <Compile Remove="Exceptions\VmInitializationException.cs" />
+  </ItemGroup>
+</Project>
